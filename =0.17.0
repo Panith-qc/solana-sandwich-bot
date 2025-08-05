@@ -1,0 +1,62 @@
+Collecting anchorpy
+  Downloading anchorpy-0.21.0-py3-none-any.whl.metadata (2.3 kB)
+Collecting anchorpy-core<0.3,>=0.2.0 (from anchorpy)
+  Downloading anchorpy_core-0.2.0-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (793 bytes)
+Collecting based58<0.2,>=0.1.1 (from anchorpy)
+  Downloading based58-0.1.1-cp37-abi3-manylinux_2_5_x86_64.manylinux1_x86_64.whl.metadata (2.2 kB)
+Collecting borsh-construct<0.2,>=0.1.0 (from anchorpy)
+  Downloading borsh_construct-0.1.0-py3-none-any.whl.metadata (2.0 kB)
+Requirement already satisfied: construct-typing<0.6,>=0.5.1 in ./venv/lib/python3.12/site-packages (from anchorpy) (0.5.6)
+Collecting pyheck<0.2,>=0.1.4 (from anchorpy)
+  Downloading pyheck-0.1.5-cp37-abi3-manylinux_2_5_x86_64.manylinux1_x86_64.whl.metadata (2.6 kB)
+Collecting solana<1.0,>=0.36.1 (from anchorpy)
+  Downloading solana-0.36.7-py3-none-any.whl.metadata (5.3 kB)
+Collecting solders<1.0,>=0.21.0 (from anchorpy)
+  Downloading solders-0.26.0-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (3.6 kB)
+Collecting toml<0.11,>=0.10.2 (from anchorpy)
+  Downloading toml-0.10.2-py2.py3-none-any.whl.metadata (7.1 kB)
+Collecting toolz<0.12,>=0.11.2 (from anchorpy)
+  Downloading toolz-0.11.2-py3-none-any.whl.metadata (5.1 kB)
+Requirement already satisfied: jsonalias==0.1.1 in ./venv/lib/python3.12/site-packages (from anchorpy-core<0.3,>=0.2.0->anchorpy) (0.1.1)
+Collecting sumtypes<0.2,>=0.1a5 (from borsh-construct<0.2,>=0.1.0->anchorpy)
+  Downloading sumtypes-0.1a6-py2.py3-none-any.whl.metadata (3.7 kB)
+Requirement already satisfied: construct==2.10.68 in ./venv/lib/python3.12/site-packages (from construct-typing<0.6,>=0.5.1->anchorpy) (2.10.68)
+INFO: pip is looking at multiple versions of solana to determine which version is compatible with other requirements. This could take a while.
+Collecting solana<1.0,>=0.36.1 (from anchorpy)
+  Downloading solana-0.36.6-py3-none-any.whl.metadata (5.3 kB)
+Requirement already satisfied: httpx>=0.23.0 in ./venv/lib/python3.12/site-packages (from solana<1.0,>=0.36.1->anchorpy) (0.23.3)
+Requirement already satisfied: typing-extensions>=4.2.0 in ./venv/lib/python3.12/site-packages (from solana<1.0,>=0.36.1->anchorpy) (4.14.1)
+Requirement already satisfied: websockets<=15.0,>=9.0 in ./venv/lib/python3.12/site-packages (from solana<1.0,>=0.36.1->anchorpy) (11.0.3)
+Requirement already satisfied: attrs in ./venv/lib/python3.12/site-packages (from sumtypes<0.2,>=0.1a5->borsh-construct<0.2,>=0.1.0->anchorpy) (25.3.0)
+Requirement already satisfied: certifi in ./venv/lib/python3.12/site-packages (from httpx>=0.23.0->solana<1.0,>=0.36.1->anchorpy) (2025.8.3)
+Requirement already satisfied: httpcore<0.17.0,>=0.15.0 in ./venv/lib/python3.12/site-packages (from httpx>=0.23.0->solana<1.0,>=0.36.1->anchorpy) (0.16.3)
+Requirement already satisfied: rfc3986<2,>=1.3 in ./venv/lib/python3.12/site-packages (from rfc3986[idna2008]<2,>=1.3->httpx>=0.23.0->solana<1.0,>=0.36.1->anchorpy) (1.5.0)
+Requirement already satisfied: sniffio in ./venv/lib/python3.12/site-packages (from httpx>=0.23.0->solana<1.0,>=0.36.1->anchorpy) (1.3.1)
+Requirement already satisfied: h11<0.15,>=0.13 in ./venv/lib/python3.12/site-packages (from httpcore<0.17.0,>=0.15.0->httpx>=0.23.0->solana<1.0,>=0.36.1->anchorpy) (0.14.0)
+Requirement already satisfied: anyio<5.0,>=3.0 in ./venv/lib/python3.12/site-packages (from httpcore<0.17.0,>=0.15.0->httpx>=0.23.0->solana<1.0,>=0.36.1->anchorpy) (4.10.0)
+Requirement already satisfied: idna>=2.8 in ./venv/lib/python3.12/site-packages (from anyio<5.0,>=3.0->httpcore<0.17.0,>=0.15.0->httpx>=0.23.0->solana<1.0,>=0.36.1->anchorpy) (3.10)
+Downloading anchorpy-0.21.0-py3-none-any.whl (63 kB)
+Downloading anchorpy_core-0.2.0-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.9 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.9/1.9 MB 9.1 MB/s  0:00:00
+Downloading based58-0.1.1-cp37-abi3-manylinux_2_5_x86_64.manylinux1_x86_64.whl (1.0 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.0/1.0 MB 20.8 MB/s  0:00:00
+Downloading borsh_construct-0.1.0-py3-none-any.whl (6.4 kB)
+Downloading pyheck-0.1.5-cp37-abi3-manylinux_2_5_x86_64.manylinux1_x86_64.whl (1.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.1/1.1 MB 28.7 MB/s  0:00:00
+Downloading solana-0.36.6-py3-none-any.whl (62 kB)
+Downloading solders-0.26.0-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (13.5 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 13.5/13.5 MB 28.8 MB/s  0:00:00
+Downloading sumtypes-0.1a6-py2.py3-none-any.whl (5.8 kB)
+Downloading toml-0.10.2-py2.py3-none-any.whl (16 kB)
+Downloading toolz-0.11.2-py3-none-any.whl (55 kB)
+Installing collected packages: toolz, toml, sumtypes, solders, pyheck, based58, anchorpy-core, borsh-construct, solana, anchorpy
+  Attempting uninstall: solders
+    Found existing installation: solders 0.20.0
+    Uninstalling solders-0.20.0:
+      Successfully uninstalled solders-0.20.0
+  Attempting uninstall: solana
+    Found existing installation: solana 0.32.0
+    Uninstalling solana-0.32.0:
+      Successfully uninstalled solana-0.32.0
+
+Successfully installed anchorpy-0.21.0 anchorpy-core-0.2.0 based58-0.1.1 borsh-construct-0.1.0 pyheck-0.1.5 solana-0.36.6 solders-0.26.0 sumtypes-0.1a6 toml-0.10.2 toolz-0.11.2
